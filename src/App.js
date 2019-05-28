@@ -1,12 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
+
+//COMPONENT IMPORTS
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
+      <Router>
+        <Header />
+      </Router>
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
