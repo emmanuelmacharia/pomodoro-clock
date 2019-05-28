@@ -30,17 +30,38 @@
 }
 
 
-/* HEADER STYLING */
+/* HEADER AND FOOTER STYLING */
 .app-header {
   background-color: rgba(34, 31, 31, 0.8);
   color: #fff;
   text-align: center;
   font-family: inherit;
   padding: 0.5em;
+  position: fixed;
+  width: 100vw;
 }
 
 .navLinks { 
   text-decoration: none;
   font-family: inherit;
   color: white;
+}
+
+.app-footer {
+  background-color: rgba(34, 31, 31, 0.8);
+  width: 100vw;
+  color: white;
+  font-family: inherit;
+  padding: 0.5em;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+
+}
+
+
+
+.app-footer p {
+  padding: 0.2em 0;
+  margin: 0.1em;
 }
