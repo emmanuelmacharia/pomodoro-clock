@@ -18,7 +18,6 @@ export class Clock extends Component {
     }
 
 
-    // handleSubmit = () => setInterval(this.handleInterval, 1000)
     handleSubmit =() => {
         let start = 
             !this.state.countdown ? (this.handleInterval(), 
@@ -251,20 +250,3 @@ const pstyle = {
 }
 
 export default Clock;
-
-/**
- * <div>
-                    <form onSubmit = {this.handleSubmit}>
-                        <input
-                        type = "number"
-                        name = "time"
-                        value = {this.state.time}
-                        placeholder = "Enter your Session allocation"
-                        min = "1"
-                        onChange = {this.handleChange}
-                        />
-                        <button>Start Session</button>
-                    </form>
-                    <h2>{this.convertTime()}</h2>
-                </div>
- */

@@ -6,13 +6,16 @@ import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Clock from './components/Clock'
+import About from './components/About'
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
-        <Clock />
+        <Route exact path = '/' component = {Clock} />
+        <Route exact path = '/about' component = {About} />
+        {/* <Clock /> */}
         <Footer />
       </Router>
       
