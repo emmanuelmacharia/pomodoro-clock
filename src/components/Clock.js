@@ -243,10 +243,4 @@ const spanstyle = {
     marginTop: "1em"
 }
 
-const pstyle = {
-    fontSize: "0.5em",
-    textAlign: "center",
-    marginTop: "0.2em"
-}
-
 export default Clock;
